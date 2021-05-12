@@ -232,6 +232,8 @@ var filesToInclude = [
 
   ifSpecifiedInclude('textbox', 'src/shapes/textbox.class.js'),
   ifSpecifiedInclude('interaction', 'src/mixins/default_controls.js'),
+  // add support eraser brush
+  ifSpecifiedInclude('erasing', 'src/mixins/eraser_brush.mixin.js'),
 ];
 
 if (buildMinified) {
